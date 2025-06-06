@@ -24,7 +24,7 @@ export default function Home() {
                 <div className='bg-gray-950 text-center p-6 rounded-md lg:p-10'>
                     <img className='w-20 mx-auto' src={Onda} alt="icone de onda" />
                     <h3 className='text-cyan-50 text-2xl p-2 pb-5'>Sistema anti-enchente</h3>
-                    <p className='text-cyan-50 text-sm md:text-lg'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus quam vitae inventore aperiam saepe quod, hic, animi mollitia sunt est unde doloribus, ipsam iste aspernatur facere fugiat nostrum provident nesciunt.</p>
+                    <p className='text-cyan-50 text-sm md:text-lg'>É como ter um sistema de proteção anti-enchente na sua porta, pronto para agir.</p>
                 </div>
             </div>
         </div>
