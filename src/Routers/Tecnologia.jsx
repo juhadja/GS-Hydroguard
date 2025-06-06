@@ -9,7 +9,12 @@ export default function Tecnologia() {
             </div>
             <div className='bg-gray-950 md:col-span-2 p-5 md:p-12 text-center md:text-left rounded-lg'>
                 <h2 className='text-cyan-50 text-3xl md:text-4xl md:ml-18 mb-3 md:mb-5'>Tecnologia</h2>
-                <p className='text-cyan-400 md:text-lg font-light'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat tempore ut eveniet eligendi inventore eum vitae vero officiis fuga deserunt unde, praesentium, consequuntur cum quam dolore rem, animi id dolorem.</p>
+                <p className='text-cyan-400 md:text-lg font-light'>A solução é composta por:
+•	Sensor de nível d’água ultrassônico: monitora continuamente o acúmulo de água.
+•	Microcontrolador ESP32: interpreta os dados do sensor e aciona o sistema automaticamente quando o nível atinge o ponto crítico predeterminado.
+•	Servomotor (protegido por lona impermeável reforçada): responsável por erguer a barreira de forma automática.
+•	Lona impermeável de PVC: funciona como a barreira principal, formando uma contenção eficiente contra a entrada de água.
+O HydroGuard é uma solução prática, acessível e escalável, que alia baixo custo, automação e impacto direto, protegendo vidas e evitando perdas materiais com instalação simples e resposta imediata.</p>
             </div>
         </div>
     )
