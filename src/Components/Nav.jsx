@@ -1,9 +1,19 @@
+import { useNavigate } from "react-router-dom";
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { useAuth } from "../AuthContext";
 import './Nav.css';
 
 export default function Nav() {
     const [isOpen, setIsOpen] = useState(false);
+    const { isAuthenticated, logout } = useAuth();
+    const navigate = useNavigate();
+
+    const handleLogout = () => {
+        localStorage.removeItem("logado");
+        logout();
+        navigate("/login");
+    };
 
     return (
         <div className="bg-black">
@@ -64,9 +74,20 @@ export default function Nav() {
                     <li className="text-cyan-50 hover:text-cyan-400">
                         <Link to="/solucao">Problema e solução</Link>
                     </li>
-                    <li className="text-cyan-50 hover:text-cyan-400">
-                        <Link to="/login">Login | Cadastre-se</Link>
-                    </li>
+                    <div>
+                        {isAuthenticated ? (
+                            <li
+                                onClick={handleLogout}
+                                className="text-cyan-200 hover:text-cyan-400"
+                            >
+                                <h4>Sair</h4>
+                            </li>
+                        ) : (
+                            <Link to="/login" className="text-cyan-50 hover:text-cyan-400">
+                                <h4>Login | Cadastre-se</h4>
+                            </Link>
+                        )}
+                    </div>
                 </ul>
             </nav>
         </div>

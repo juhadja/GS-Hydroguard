@@ -4,9 +4,10 @@ import Onda from '../assets/icons/onda.png'
 import './Styles.css'
 
 export default function Home() {
+    
     return (
         <div className='bg-[url(./assets/mobile.png)]  md:bg-[url(./assets/background.png)] bg-cover bg-no-repeat pt-40  '>
-            <div className='p-10 pb-80 md:pb-100 md:pl-50'>
+            <div className='p-10 pb-80 md:pb-80 md:pl-50'>
                 <h1 className=" text-4xl md:text-5xl text-cyan-50">HYDROGUARD</h1>
                 <p className="md:text-2xl text-cyan-400 font-light">Quando a água sobe, a tecnologia se levanta.</p>
             </div>
