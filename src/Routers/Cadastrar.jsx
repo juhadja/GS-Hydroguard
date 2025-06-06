@@ -15,7 +15,6 @@ export default function Cadastro() {
         setForm({ ...form, [e.target.name]: e.target.value });
 
     const handleSubmit = () => {
-        // aqui tu pode salvar em banco/fakeDB/etc
         alert("Cadastro salvo com sucesso!");
         navigate("/login");
     };
