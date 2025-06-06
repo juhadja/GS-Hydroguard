@@ -15,7 +15,7 @@ function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
   return (
-    <>
+    <div className="min-h-screen grid grid-rows-[auto_1fr_auto]">
       <BrowserRouter>
         <Nav />
         <Routes>
@@ -31,9 +31,9 @@ function App() {
           />
           <Route path="*" element={<Error />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
-      <Footer />
-    </>
+    </div>
 
   );
 }
