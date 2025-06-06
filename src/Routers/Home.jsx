@@ -14,12 +14,12 @@ export default function Home() {
                 <div className='bg-gray-950 text-center p-4 rounded-md lg:p-10'>
                     <img className='w-20 mx-auto' src={Agua} alt="icone de água" />
                     <h3 className='text-cyan-50 text-2xl p-2 pb-5'>“Barragem doméstica”</h3>
-                    <p className='text-cyan-50 text-sm md:text-lg'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus quam vitae inventore aperiam saepe quod, hic, animi mollitia sunt est unde doloribus, ipsam iste aspernatur facere fugiat nostrum provident nesciunt.</p>
+                    <p className='text-cyan-50 text-sm md:text-lg'>HydroGuard é um sistema de defesa automática contra alagamentos. Ele funciona como uma espécie de "barragem doméstica", capaz de se erguer sozinha ao detectar risco.</p>
                 </div>
                 <div className='bg-gray-950 text-center p-4 rounded-md lg:p-10'>
                     <img className='w-20 mx-auto' src={Gota} alt="icone de Gota" />
                     <h3 className='text-cyan-50 text-2xl p-2 pb-5'>Sensores de nível</h3>
-                    <p className='text-cyan-50 text-sm md:text-lg'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus quam vitae inventore aperiam saepe quod, hic, animi mollitia sunt est unde doloribus, ipsam iste aspernatur facere fugiat nostrum provident nesciunt.</p>
+                    <p className='text-cyan-50 text-sm md:text-lg'>Com sensores de nível d'água que podem ser instalados na calçada, quintal ou porta o sistema monitora continuamente o aumento da água.</p>
                 </div>
                 <div className='bg-gray-950 text-center p-6 rounded-md lg:p-10'>
                     <img className='w-20 mx-auto' src={Onda} alt="icone de onda" />
