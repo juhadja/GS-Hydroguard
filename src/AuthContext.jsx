@@ -1,9 +1,7 @@
 import { createContext, useEffect, useState, useContext } from "react";
 
-// Cria o contexto
 const AuthContext = createContext();
 
-// Provedor
 export const AuthProvider = ({ children }) => {
     const [isAuthenticated, setIsAuthenticated] = useState(
         localStorage.getItem("logado") === "true"
@@ -35,5 +33,4 @@ export const AuthProvider = ({ children }) => {
     );
 };
 
-// Hook personalizado pra usar o contexto
 export const useAuth = () => useContext(AuthContext);
