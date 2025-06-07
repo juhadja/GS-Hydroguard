@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 export default function PaginaErro() {
     return (
         <div className="bg-[url(./assets/background.png)] bg-cover text-center p-50 pb-100">

@@ -15,13 +15,13 @@ export default function Cadastro() {
         setForm({ ...form, [e.target.name]: e.target.value });
 
     const handleSubmit = () => {
-        // aqui tu pode salvar em banco/fakeDB/etc
+
         alert("Cadastro salvo com sucesso!");
         navigate("/login");
     };
 
     return (
-        <div className="min-h-screen bg-[#0D1117] flex items-center justify-center text-white">
+        <div className="bg-[url(./assets/background404.png)] bg-center bg-cover min-h-screen flex items-center justify-center text-white">
             <div className="bg-[#0D1117] p-8 rounded-md w-full max-w-sm">
                 <h2 className="text-lg mb-6 text-center">Preencha o formulário</h2>
 

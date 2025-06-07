@@ -57,7 +57,6 @@ export default function Nav() {
                     </button>
                 </div>
 
-                {/* Menu */}
                 <ul
                     className={`mx-auto md:flex gap-10 absolute md:static top-16 left-0 w-full md:w-auto bg-black md:bg-transparent p-4 md:p-0 ${isOpen ? 'block' : 'hidden'
                         }`}
