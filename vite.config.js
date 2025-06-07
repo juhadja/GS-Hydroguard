@@ -8,4 +8,8 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
+  base:'/GS-Hydroguard/',
+  build:{
+    outDir:'dist'
+  }
 })
