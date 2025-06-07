@@ -15,12 +15,12 @@ export default function Login() {
             login();
             navigate("/home");
         } else {
-            setErro("E-mail ou senha inválidos 😢");
+            setErro("E-mail ou senha inválidos");
         }
     };
 
     return (
-        <div className="min-h-screen bg-[#0D1117] flex items-center justify-center text-white">
+        <div className="bg-[url(./assets/background404.png)] bg-center bg-cover  min-h-screen bg flex items-center justify-center text-white">
             <div className="bg-[#0D1117] p-8 rounded-md w-full max-w-sm">
                 <h2 className="text-lg mb-6 text-center">Entre com seu e-mail e senha</h2>
 
