@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Nav from './Components/Nav';
 import Sobre from './Routers/Sobre';
 import Tecnologia from './Routers/Tecnologia';
@@ -25,10 +25,10 @@ function App() {
           <Route path="/solucao" element={<Solucao />} />
           <Route path="/login" element={<Login />} />
           <Route path="/cadastro" element={<Cadastro />} />
-          <Route
+          {/* <Route
             path="/home"
             element={isAuthenticated ? <Home /> : <Navigate to="/" />}
-          />
+          /> */}
           <Route path="*" element={<Error />} />
         </Routes>
         <Footer />
